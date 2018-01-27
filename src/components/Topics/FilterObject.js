@@ -5,9 +5,14 @@ class FilterObject extends Component{
     render(){
         return(
 
-            <p>FilterObject Component</p>
-
-        
+            <div className="puzzleBox filterObjectPB">
+                <h4>Filter Object</h4>
+                <span className="puzzleText"></span>
+                <input className="inputLine"/>
+                <button className="confirmationButton">Filter</button>
+                <span className="resultsBox filterObjectRB"></span>
+            </div>
+       
         )
     }
 }
